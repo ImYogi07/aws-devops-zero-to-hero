@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
-# Installing docker
-sudo yum install docker -y 
+
 # Pull the Docker image from Docker Hub
 docker pull abhishekf5/simple-python-flask-app
 
